@@ -14,9 +14,8 @@ bash scripts/download_kaggle_data.sh
 python scripts/run_comparison.py
 ```
 
-Отдельный запуск:
 
-```bash
-python generated/openai_gpt4o/malware_classifier.py --data-dir data/raw
-python baseline/hand_coded_classifier.py --data-dir data/raw
-```
+
+## Промпты
+
+Промпты (русский/английский) к моделям находятся в папке prompts
